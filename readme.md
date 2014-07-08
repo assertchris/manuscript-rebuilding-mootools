@@ -1,6 +1,6 @@
-# Rebuilding Mootools
+# Rebuilding MooTools
 
-MooTools was once the Jewel of artisanal JavaScript development.  By deconstructing it, we can learn what made it great.
+MooTools was once the jewel of artisanal JavaScript development.  By deconstructing it, we can learn what made it great.
 
 This book is part of a set of resources, aimed at learning MooTools from the inside out. Other resources are:
 
