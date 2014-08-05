@@ -2,3 +2,4 @@
 01-coffeescript.md
 02-grunt.md
 03-buster.md
+04-typeof.md
