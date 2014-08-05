@@ -8,6 +8,7 @@ MooTools has a few methods to do this kind of type checking. The one we’ll re-
 
 Stated differently, if you use the `typeof` keyword and then a variable, you get a string to compare it to:
 
+{lang=js}
 ```
 typeof "foo" === "string";          // true
 typeof 1 === "number";              // true
@@ -20,6 +21,7 @@ There is also no way to augment the `typeof` construct to allow the definition o
 
 And so MooTools defined the `typeOf()` function to overcome these limitations, and provide a consistent means of identifying types:
 
+{lang=js}
 ```
 var typeOf = this.typeOf = function(item){
   if (item == null) return 'null';
@@ -106,6 +108,7 @@ A> The DOM aspects of this function have been removed, and I’ll only talk abou
 
 Fortunately, this function is fairly easy to test. We just need to make sure that new instances of each type are compared against the expected type:
 
+{lang=js}
 ```
 var buster = require("buster");
 var assert = buster.referee.assert;
