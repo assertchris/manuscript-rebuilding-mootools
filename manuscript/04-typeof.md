@@ -15,7 +15,7 @@ typeof 1 === "number";              // true
 typeof function(){} === "function"; // true
 ```
 
-This is helpful, but only to a point. The numbers of types this construct can identify are six (more if you count ECMAScript 6 and Host objects). Some of the comparisons are also misleading. For instance: `null` is identified as object and regular expressions are identified as `object` or `function`, depending on implementation.
+This is helpful, but only to a point. The number of types this construct can identify are six (more if you count ECMAScript 6 and Host objects). Some of the comparisons are also misleading. For instance: `null` is identified as object and regular expressions are identified as `object` or `function`, depending on implementation.
 
 There is also no way to augment the `typeof` construct to allow the definition of new types. 
 

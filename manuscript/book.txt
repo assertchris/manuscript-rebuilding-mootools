@@ -3,3 +3,4 @@
 02-grunt.md
 03-buster.md
 04-typeof.md
+05-classes.md
