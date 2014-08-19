@@ -80,9 +80,7 @@ class Animal
   eat: ->
     console.log("om nom nom")
   
-class Cat # extends Implements
-  # @implements Animal
-  
+class Cat
   constructor: ->
     console.log("new cat")
   
